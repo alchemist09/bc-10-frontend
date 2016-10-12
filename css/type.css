@@ -1,0 +1,164 @@
+/* CSS Document */
+/*---------------- Site Headings -------------*/
+h1 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 36px;
+	color: #0c72b0;
+	font-weight: bold;
+}
+h1 a { color: #3b383a; text-decoration: none; }
+h2 {
+	font-family: Helvetica, "Trebuchet MS", sans-serif;
+	font-size: 24px;
+	color: #0581cf;
+	font-weight: 400;
+	font-stretch: condensed;
+	margin-bottom: 15px;
+}
+h2#intro-title {
+	font-size: 18px;
+	text-align: center;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+.text-emph {
+	color: #093957;
+}
+h3 {
+	font-family: Helvetica, "Trebuchet MS", sans-serif;
+	font-size: 16px;
+	color: #093957;
+	font-weight: 250;
+	font-stretch: condensed;
+	margin-bottom: 10px;
+}
+#coin-slider h3 {
+	color: #fff;
+	text-decoration: underline;
+	text-align: center;
+}
+h3#about-andela-bootcamp, h3#learning-map { text-align: center; font-size: 24px; }
+h3#learning-map { margin-bottom: 20px; }
+h4, h4 a {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 17px;
+	color: #093957;
+	margin-bottom: 10px;
+	font-stretch: condensed;
+}
+h4 a { margin-right: 30px; width: 630px; }
+h4.speciality {
+	text-align: center;
+}
+/*--------------- Navigation Type ------------*/
+ul#main-nav a {
+	font-family: Helvetica, "Trebuchet MS", sans-serif;
+	font-size: 14px;
+	color: #09649b;
+	text-decoration: none;
+}
+ul#main-nav li ul.nested-nav a {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #f3f6fa;
+	text-decoration: none;
+}
+ul#main-nav a:hover { 
+	/*text-shadow: 1px 1px 1px #555;*/
+	background: url(../assets/curr-link-bg.jpg) repeat-x;
+	color: #ffffff;
+}
+#side-bar a:hover { text-decoration: underline; }
+#footer a {
+	text-decoration: none;
+	color: #fff;
+}
+#footer a:hover {
+	text-decoration: underline;
+}
+#footer-nav li a {
+	text-align: center;
+}
+/*-------------------- Paragraph Type --------------*/
+p {
+	font-family: Helvetica, "Trebuchet MS", sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 300;
+	color: #606060;
+	font-stretch: ultra-condensed;
+	margin-bottom: 20px;
+}
+#content strong {
+	font-weight: bold;
+}
+#content ul {
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+#content li {
+	font-family: Helvetica, "Trebuchet MS", sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 20px;
+	color: #606060;
+	font-stretch: ultra-condensed;
+	list-style: disc;
+}
+.slide-caption p {
+	color: #fff
+}
+#central-mesg p {
+	color: #1689d2;
+	font-size: 24px;
+	text-align: center;
+	line-height: 30px;
+	padding-top: 18px;
+	font-stretch: extra-condensed !important;
+	font-weight: 100;
+}
+.thumb p { margin-bottom: 10px; text-align: center; }
+#intro-mesg p { text-align: center; }
+#intro-mesg a.btn-read-more {
+	text-indent: -9999px;
+	display: block;
+	width: 150px;
+	height: 47px;
+	background: url(../assets/btn-read-more.png) no-repeat !important;
+	background-position: 0px 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+a.btn-read-more:hover { background-position: 0px -48px; }
+a.thumb-read-more {
+	text-indent: -9999px;
+	display: block;
+	width: 104px;
+	height: 44px;
+	background: url(../assets/btn-thumb-read-more.png) no-repeat;
+	background-position: 0px 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+a.thumb-read-more:hover { background-position: 0px -45px; }
+p#copyright {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12px;
+	color: #fff;
+	margin-bottom: 3px;
+	text-align: center;
+}
+/*--------------- Footer --------------*/
+.footer-nav ul a {
+	font-family: Helvetica, "Trebuchet MS", sans-serif;
+	color: #fff;
+	text-decoration: none;
+	font-size: 14px;
+}
+.footer-nav ul a:hover { text-decoration: underline; }
+a#developer{
+	font-size:11px;
+	color:#304683;
+	text-align:center;
+	padding-top:4px;
+}
